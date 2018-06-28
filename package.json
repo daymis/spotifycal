@@ -1,0 +1,49 @@
+{
+  "name": "spotifycalendar",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.2",
+    "connect-session-sequelize": "^5.2.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "history": "^4.7.2",
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "path": "^0.12.7",
+    "pg-promise": "^8.4.4",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-modal": "^3.4.5",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "sequelize": "^4.38.0",
+    "webpack": "^3.11.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "seed": "node seed.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5",
+    "webpack-cli": "^3.0.8"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "seed.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
