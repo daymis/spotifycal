@@ -72,7 +72,7 @@ class Calendar extends Component {
     return (
       <div>
         <h1 className="month-name">{month()} {year()}</h1>
-        <div className="calendar-cont">
+        <div>
           <table className="calendar">
             <thead>
             </thead>
